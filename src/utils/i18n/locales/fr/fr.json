@@ -1,0 +1,74 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "A propos",
+        "work": "Projets",
+        "contact": "Contact",
+        "dark": "mode sombre",
+        "light": "mode clair"
+    },
+    "footer": {
+        "made": "Créé par Mélanie Courzereaux",
+        "based": "Basée à Paris"
+    },
+    "home": {
+        "open": "Disponible",
+        "based": "Basée à Paris",
+        "developer": "Développeuse Full-Stack",
+        "status": "statut",
+        "job": "Responsable des exigences partenariats des clients stratégiques",
+        "resume": "CV",
+        "download": "Télécharger ici",
+        "projects": "projets",
+        "explore": "Découvrez mon travail",
+        "building": "Développer des applications webs"
+    },
+    "about": {
+        "title": "A propos",
+        "developer": "Développeuse Full-Stack",
+        "description": "Après deux ans en gestion de projet chez Dassault Systèmes, j'ai décidé de <1> me lancer dans le développement</1>.",
+        "open": "Disponible - Paris & à distance",
+        "parcours": {
+            "title": "parcours",
+            "cdi": {
+                "title": "Responsable des exigences partenariats des clients stratégiques",
+                "date": "Depuis Oct. 2024"
+            },
+            "stage": {
+                "title": "Chef de projet",
+                "date": "Mars - Sept. 2024"
+            },
+            "ecole": {
+                "title": "Ecole d'ingénieur généraliste",
+                "date": "2029-2024"
+            }
+        },
+        "skills": "compétences"
+    },
+    "work": {
+        "title": "Projets",
+        "projects": "projets",
+        "inProgress" : "en cours"
+    },
+    "workDetails": {
+        "liveDemo": "Démo en ligne",
+        "sourceCode": "Code source",
+        "openApp": "Ouvrir l'application",
+        "livePreview": "Aperçu en direct",
+        "features": "Fonctionnalités",
+        "techStack": "Technologies",
+        "whatILearned": "Ce que j'ai appris"
+    },
+    "contact": {
+        "getInTouch": "Restons en contact",
+        "developer": "Développeuse Full-Stack",
+        "open": "Disponible",
+        "letsWork": "Travaillons ensemble",
+        "name": "nom",
+        "yourMessage": "Votre message...",
+        "envoi": "Envoyez",
+        "messageSend": "Message envoyé",
+        "answer": "Je vous répondrais dans les plus brefs délais",
+        "otherMessage" : "Envoyer un autre message"
+    }
+}
