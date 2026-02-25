@@ -51,7 +51,7 @@ export default function Contact() {
     return (
         <PageTransition>
 
-            <section className=" px-5  mt-[20px] md:mt-[76px] relative">
+            <section className=" px-5 mt-[20px] md:mt-[76px] relative">
 
                 <motion.div
                     initial="hidden"

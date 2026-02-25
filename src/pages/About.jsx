@@ -144,7 +144,7 @@ export default function About() {
                         >
                             {t("about.parcours.title")}  ★
                         </motion.span>
-                        <div className="border-l border-custom-gray pl-[2   2px] flex flex-col gap-[48px]">
+                        <div className="border-l border-custom-gray pl-4 flex flex-col gap-[48px]">
                             {parcours.map((p, i) => (
                                 <motion.div
                                     key={p.id}
