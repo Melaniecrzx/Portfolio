@@ -51,7 +51,7 @@
   "work": {
     "title": "Work",
     "projects": "projects",
-    "inProgress": "in progress"
+    "inProgress": "back-end in progress"
   },
   "workDetails": {
     "liveDemo": "Live demo",
