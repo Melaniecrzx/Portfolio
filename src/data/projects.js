@@ -24,12 +24,13 @@ import PortfolioResponsiveDark from "../assets/Portfolio/PortfolioResponsive-dar
 import PortfolioResponsiveLight from "../assets/Portfolio/PortfolioResponsive-light.png";
 import PortfolioVideo from "../assets/Portfolio/PortfolioVideo.mp4";
 
-import FianceAppOverview from "../assets/FinanceApp/FinanceApp-overview.png";
-import FianceAppBudgets from "../assets/FinanceApp/FinanceApp-budgets.png";
-import FianceAppPots from "../assets/FinanceApp/FinanceApp-pots.png";
-import FianceAppTransactions from "../assets/FinanceApp/FinanceApp-transactions.png";
-import FianceAppResponsive from "../assets/FinanceApp/FinanceApp-responsive.png";
-import FianceAppVideo from "../assets/FinanceApp/FinanceApp.mp4";
+import FinanceAppOverview from "../assets/FinanceApp/FinanceApp-overview.png";
+import FinanceAppBudgets from "../assets/FinanceApp/FinanceApp-budgets.png";
+import FinanceAppPots from "../assets/FinanceApp/FinanceApp-pots.png";
+import FinanceAppTransactions from "../assets/FinanceApp/FinanceApp-transactions.png";
+import FinanceAppResponsive from "../assets/FinanceApp/FinanceApp-responsive.png";
+import FinanceAppBills from "../assets/FinanceApp/FinanceApp-bills.png";
+import FinanceAppVideo from "../assets/FinanceApp/FinanceApp.mp4";
 
 export const projects = [
   {
@@ -150,7 +151,7 @@ export const projects = [
     screenshots: [
       {
         id: "board",
-        feature: "Home Page",
+        feature: "Porfolio Home Page",
         dark: PortfolioHomeDark,
         light: PortfolioHomeLight,
       },
@@ -194,8 +195,7 @@ export const projects = [
     slug: "financeApp",
     title: "Finance App",
     description:
-      "A fully responsive portfolio built from scratch, designed and developed to reflect my identity as a developer.",
-
+      "Personal finance app with TypeScript, Redux Toolkit, Jotai and Framer Motion",
     techStack: [
       {
         category: "FRONTEND",
@@ -252,42 +252,42 @@ export const projects = [
     screenshots: [
       {
         id: "board",
-        feature: "Overview Dashboard",
-        dark: FianceAppOverview,
-        light: FianceAppOverview,
+        feature: "Finance App Overview Dashboard",
+        dark: FinanceAppOverview,
+        light: FinanceAppOverview,
       },
       {
         id: "transactions",
         feature: "Transaction Page",
-        dark: FianceAppTransactions,
-        light: FianceAppTransactions,
+        dark: FinanceAppTransactions,
+        light: FinanceAppTransactions,
       },
       {
-        id: "project",
-        feature: "Project Page",
-        dark: PortfolioProjectDark,
+        id: "bills",
+        feature: "Recurring Bills Page",
+        dark: FinanceAppBills,
         light: PortfolioProjectLight,
       },
       {
         id: "budgets",
         feature: "Budget Management",
-        dark: FianceAppBudgets,
-        light: FianceAppBudgets,
+        dark: FinanceAppBudgets,
+        light: FinanceAppBudgets,
       },
       {
         id: "pots",
         feature: "Pots Page",
-        dark: FianceAppPots,
-        light: FianceAppPots,
+        dark: FinanceAppPots,
+        light: FinanceAppPots,
       },
       {
         id: "responsive",
         feature: "FULLY RESPONSIVE",
-        dark: FianceAppResponsive,
-        light: FianceAppResponsive,
+        dark: FinanceAppResponsive,
+        light: FinanceAppResponsive,
       },
     ],
-    video: FianceAppVideo,
+    video: FinanceAppVideo,
     liveDemo: "https://finance-app-melaniecrzx.vercel.app/",
     sourceCode: "https://github.com/Melaniecrzx/Finance-app-V2.git",
   },

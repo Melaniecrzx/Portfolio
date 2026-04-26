@@ -1,74 +1,77 @@
 {
-    "nav": {
-        "home": "Home",
-        "about": "About",
-        "work": "Work",
-        "contact": "Contact",
-        "dark": "dark mode",
-        "light": "light mode"
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "work": "Work",
+    "contact": "Contact",
+    "dark": "dark mode",
+    "light": "light mode"
+  },
+  "footer": {
+    "made": "Made by Mélanie Courzereaux",
+    "based": "Based in Paris"
+  },
+  "home": {
+    "open": "Open to Work",
+    "based": "Based in Paris",
+    "developer": "Full-Stack developer",
+    "status": "status",
+    "job": "Customer Strategic Partnership Requirement Manager",
+    "resume": "Resume",
+    "download": "Download here",
+    "projects": "projects",
+    "explore": "Discover my projects",
+    "building": "Building scalable web apps."
+  },
+  "about": {
+    "title": "About",
+    "developer": "Full-Stack Developer",
+    "description": "After two years bridging business and tech teams at Dassault Systèmes, I transitioned into full-stack development -<1> building real projects with modern stacks</1>.",
+    "open": "Open to work - Paris & remote",
+    "parcours": {
+      "title": "parcours",
+      "cdi": {
+        "title": "Customer Strategic Partnershiip Requirement Manager",
+        "status": "CDI",
+        "date": "Since Oct. 2024"
+      },
+      "stage": {
+        "title": "Project Manager",
+        "status": "internship",
+        "date": "March - Sept. 2024"
+      },
+      "ecole": {
+        "title": "General engineering college",
+        "status": "Studies",
+        "date": "2029-2024"
+      }
     },
-    "footer": {
-        "made": "Made by Mélanie Courzereaux",
-        "based": "Based in Paris"
-    },
-    "home": {
-        "open": "Open to Work",
-        "based": "Based in Paris",
-        "developer": "Full-Stack developer",
-        "status": "status",
-        "job": "Customer Strategic Partnership",
-        "resume": "Resume",
-        "download": "Download here",
-        "projects": "projects",
-        "explore": "Discover my projects",
-        "building": "Building scalable web apps."
-    },
-    "about": {
-        "title": "About",
-        "developer": "Full-Stack Developer",
-        "description": "After two years in customer partnership relations at Dassault Systèmes, I decided to <1>get started in development</1>.",
-        "open": "Open to work - Paris & remote",
-        "parcours": {
-            "title": "parcours",
-            "cdi": {
-                "title": "Customer Strategic Partnershiip",
-                "date": "Since Oct. 2024"
-            },
-            "stage": {
-                "title": "Project Manager",
-                "date": "March - Sept. 2024"
-            },
-            "ecole": {
-                "title": "General engineering college",
-                "date": "2029-2024"
-            }
-        },
-        "skills": "skills"
-    },
-    "work": {
-        "title": "Work",
-        "projects": "projects",
-        "inProgress": "in progress"
-    },
-    "workDetails": {
-        "liveDemo": "Live demo",
-        "sourceCode": "Source code",
-        "openApp": "Open app",
-        "livePreview": "Livre preview",
-        "features": "Features",
-        "techStack": "Tech Stack",
-        "whatILearned": "What I learned"
-    },
-    "contact": {
-        "getInTouch": "Get in touch",
-        "developer": "Full-Stack developer",
-        "open": "Open to work",
-        "letsWork": "Let's Work together",
-        "name": "name",
-        "yourMessage": "Your message...",
-        "envoi": "Send",
-        "messageSend": "Message send",
-        "answer": "I will get back to you as soon as possible.",
-        "otherMessage" : "send another message"
-    }
+    "skills": "skills"
+  },
+  "work": {
+    "title": "Work",
+    "projects": "projects",
+    "inProgress": "in progress"
+  },
+  "workDetails": {
+    "liveDemo": "Live demo",
+    "sourceCode": "Source code",
+    "openApp": "Open app",
+    "livePreview": "Livre preview",
+    "features": "Features",
+    "techStack": "Tech Stack",
+    "whatILearned": "What I learned"
+  },
+  "contact": {
+    "getInTouch": "Get in touch",
+    "developer": "Full-Stack developer",
+    "open": "Open to work",
+    "letsWork": "Let's Work together",
+    "name": "name",
+    "yourMessage": "Your message...",
+    "envoi": "Send",
+    "messageSend": "Message send",
+    "answer": "I will get back to you as soon as possible.",
+    "otherMessage": "send another message"
+  }
 }

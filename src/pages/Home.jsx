@@ -34,6 +34,10 @@ export default function Home() {
       id: 5,
       name: "Express",
     },
+    {
+      id: 6,
+      name: "Typescript",
+    },
   ];
 
   const fadeUp = {
@@ -198,7 +202,7 @@ export default function Home() {
               {competences.map((c) => (
                 <span
                   key={c.id}
-                  className="text-custom-gray hover:text-dark dark:hover:text-light hover:border-dark dark:hover:border-light border rounded-sm border-custom-gray font4 uppercase px-2 py-1"
+                  className="text-custom-gray hover:text-dark dark:hover:text-light hover:border-dark dark:hover:border-light border rounded-sm border-gray-400 text-sm uppercase px-1"
                 >
                   {c.name}
                 </span>
