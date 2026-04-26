@@ -24,6 +24,13 @@ import PortfolioResponsiveDark from "../assets/Portfolio/PortfolioResponsive-dar
 import PortfolioResponsiveLight from "../assets/Portfolio/PortfolioResponsive-light.png";
 import PortfolioVideo from "../assets/Portfolio/PortfolioVideo.mp4";
 
+import FianceAppOverview from "../assets/FinanceApp/FinanceApp-overview.png";
+import FianceAppBudgets from "../assets/FinanceApp/FinanceApp-budgets.png";
+import FianceAppPots from "../assets/FinanceApp/FinanceApp-pots.png";
+import FianceAppTransactions from "../assets/FinanceApp/FinanceApp-transactions.png";
+import FianceAppResponsive from "../assets/FinanceApp/FinanceApp-responsive.png";
+import FianceAppVideo from "../assets/FinanceApp/FinanceApp.mp4";
+
 export const projects = [
   {
     id: 1,
@@ -184,48 +191,76 @@ export const projects = [
   },
   {
     id: 3,
-    slug: "portfolio",
-    title: "Portfolio",
+    slug: "financeApp",
+    title: "Finance App",
     description:
       "A fully responsive portfolio built from scratch, designed and developed to reflect my identity as a developer.",
 
-    techStack: [{ category: "FRONTEND", items: ["React", "Tailwind CSS"] }],
+    techStack: [
+      {
+        category: "FRONTEND",
+        items: ["React", "Tailwind CSS", "Redux", "Jotai", "Typescript"],
+      },
+      { category: "BACKEND", items: ["In work"] },
+      { category: "TESTS", items: ["Vitest"] },
+    ],
 
     features: [
       {
-        key: "traduction",
-        label: "BILINGUAL",
-        sub: "Full English and French support",
+        key: "overview",
+        label: "OVERVIEW DASHBOARD",
+        sub: "Balance, income, expenses at a glance",
       },
       {
-        key: "theme",
-        label: "DARK/LIGHT MODE",
-        sub: "Adaptive theme switching",
+        key: "budget",
+        label: "BUDGET MANAGEMENT",
+        sub: "Create, edit, delete budgets with spending tracking",
+      },
+      {
+        key: "transactions",
+        label: "TRANSACTIONS",
+        sub: "Search, filter, sort and paginate transactions",
+      },
+      {
+        key: "bills",
+        label: "RECURRING BILLS",
+        sub: "Paid, upcoming and due soon status",
+      },
+      {
+        key: "pots",
+        label: "POTS",
+        sub: "Savings goals with add/withdraw functionality",
+      },
+      {
+        key: "animation",
+        label: "ANIMATED SIDEBAR",
+        sub: "Collapsible with Framer Motion",
       },
       {
         key: "responsive",
         label: "FULLY RESPONSIVE",
-        sub: "Optimized for all screen sizes",
+        sub: "Mobile navbar + desktop sidebar",
       },
     ],
 
     whatILearned: [
-      "Implementing internationalization (i18n) from scratch",
-      "Designing and building a complete project end-to-end",
-      "Translating a personal brand into a cohesive UI with Figma",
+      "Typing a full React app with TypeScript — interfaces, union types, generics",
+      "State management architecture — when to use Redux vs Jotai vs useState",
+      "Redux Toolkit — slices, reducers, PayloadAction, useAppSelector/useAppDispatch",
+      "Feature-based project structure for scalability",
     ],
     screenshots: [
       {
-        id: "home",
-        feature: "Home Page",
-        dark: PortfolioHomeDark,
-        light: PortfolioHomeLight,
+        id: "board",
+        feature: "Overview Dashboard",
+        dark: FianceAppOverview,
+        light: FianceAppOverview,
       },
       {
-        id: "contact",
-        feature: "Contact Page",
-        dark: PortfolioContactDark,
-        light: PortfolioContactLight,
+        id: "transactions",
+        feature: "Transaction Page",
+        dark: FianceAppTransactions,
+        light: FianceAppTransactions,
       },
       {
         id: "project",
@@ -234,26 +269,26 @@ export const projects = [
         light: PortfolioProjectLight,
       },
       {
-        id: "work",
-        feature: "Work Page",
-        dark: PortfolioWorkDark,
-        light: PortfolioWorkLight,
+        id: "budgets",
+        feature: "Budget Management",
+        dark: FianceAppBudgets,
+        light: FianceAppBudgets,
       },
       {
-        id: "about",
-        feature: "About Page",
-        dark: PortfolioAboutDark,
-        light: PortfolioAboutLight,
+        id: "pots",
+        feature: "Pots Page",
+        dark: FianceAppPots,
+        light: FianceAppPots,
       },
       {
         id: "responsive",
         feature: "FULLY RESPONSIVE",
-        dark: PortfolioResponsiveDark,
-        light: PortfolioResponsiveLight,
+        dark: FianceAppResponsive,
+        light: FianceAppResponsive,
       },
     ],
-    video: "",
-    liveDemo: "https://kanban-app-mcrzx.vercel.app/",
-    sourceCode: "https://github.com/Melaniecrzx/Kanban-App.git",
+    video: FianceAppVideo,
+    liveDemo: "https://finance-app-melaniecrzx.vercel.app/",
+    sourceCode: "https://github.com/Melaniecrzx/Finance-app-V2.git",
   },
 ];
